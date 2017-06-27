@@ -403,11 +403,6 @@
       <Project>{89c9b6f2-1cd6-4a98-9ccc-eefb7ddbf6fa}</Project>
       <Name>BikeSharing.Clients.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\BikeSharing.Clients.WatchOSApp\BikeSharing.Clients.WatchOSApp.WatchOSApp\BikeSharing.Clients.WatchOSApp.WatchOSApp.csproj">
-      <IsWatchApp>true</IsWatchApp>
-      <Project>{7B7ED51B-B684-46F2-83C7-EEA5F632AF2B}</Project>
-      <Name>BikeSharing.Clients.WatchOSApp.WatchOSApp</Name>
-    </ProjectReference>
   </ItemGroup>
   <ItemGroup />
   <ItemGroup>
