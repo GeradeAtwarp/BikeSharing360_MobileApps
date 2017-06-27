@@ -5,7 +5,7 @@
 	<key>CFBundleDisplayName</key>
 	<string>BikeRider</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.bikesharing.app</string>
+	<string>com.geradedev.bikesharingapp</string>
 	<key>CFBundleShortVersionString</key>
 	<string>1.0</string>
 	<key>CFBundleVersion</key>

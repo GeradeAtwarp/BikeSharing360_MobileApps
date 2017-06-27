@@ -38,10 +38,10 @@ namespace BikeSharing.Clients.Core.ViewModels.Base
             RegisterSingleton<INavigationService, NavigationService>();
 
             // data services
-            _unityContainer.RegisterType<IAuthenticationService, AuthenticationService>();
-            _unityContainer.RegisterType<IProfileService, ProfileService>();
-            _unityContainer.RegisterType<IRidesService, RidesService>();
-            _unityContainer.RegisterType<IEventsService, EventsService>();
+            _unityContainer.RegisterType<IAuthenticationService, FakeAuthenticationService>();
+            _unityContainer.RegisterType<IProfileService, FakeProfileService>();
+            _unityContainer.RegisterType<IRidesService, FakeRidesService>();
+            _unityContainer.RegisterType<IEventsService, FakeEventsService>();
             _unityContainer.RegisterType<IWeatherService, OpenWeatherMapService>();
             _unityContainer.RegisterType<IFeedbackService, FeedbackService>();
 

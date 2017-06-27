@@ -9,7 +9,7 @@ namespace BikeSharing.Clients.Core
         public const string IssuesEndpoint = "http://YOUR_ISSUES_SERVICE.azurewebsites.net/";
         public const string RidesEndpoint = "http://YOUR_RIDES_SERVICE.azurewebsites.net/";
 
-        public const string OpenWeatherMapAPIKey = "YOUR_WEATHERMAP_API_KEY";
+        public const string OpenWeatherMapAPIKey = "b806514997d45be8cf0f0000935b48e6";
 
         public const string HockeyAppAPIKeyForAndroid = "YOUR_HOCKEY_APP_ID";
         public const string HockeyAppAPIKeyForiOS = "YOUR_HOCKEY_APP_ID";
